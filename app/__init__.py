@@ -5,6 +5,7 @@ import pymysql
 from flask import Flask
 from flask_cors import *
 from flask_sqlalchemy import SQLAlchemy
+from app import routes
 
 app = Flask(__name__,  template_folder='../templates')
 
