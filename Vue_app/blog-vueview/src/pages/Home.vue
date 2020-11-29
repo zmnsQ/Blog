@@ -1,6 +1,6 @@
 <template>
   <div>
-      <header></header>
+      <Header></Header>
       <div class="container">
         
 
@@ -9,8 +9,8 @@
 </template>
 
 <script>
-import Header from '../components/Header.vue'
-import Footer from '../components/Footer.vue'
+import Header from '../components/Header'
+import Footer from '../components/Footer'
 export default {
     name:'Home',
     data() {
@@ -21,9 +21,9 @@ export default {
     methods: {
       
     },
-    comments:{
-      Header,
-      Footer
+    components:{
+      "Header":Header,
+      "Footer":Footer
     },
     created() {
     
