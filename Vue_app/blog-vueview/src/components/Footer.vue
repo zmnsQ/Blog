@@ -1,3 +1,4 @@
+<!-- 首页脚部 -->
 <template>
   <div class="Footer">
 
@@ -7,17 +8,15 @@
 
 <script>
 export default {
-   name:'Header' ,
+   name:'Footer' ,
   data() {
       return {
-        activeIndex: '1'
+
       };
     },
     methods: {
-      handleSelect(key, keyPath) {
-        console.log(key, keyPath);
+
       }
-    }
 }
 </script>
 
